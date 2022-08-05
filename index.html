@@ -4,12 +4,149 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Spotify Music App</title>
 </head>
 <body>
-    <main>
-        <p>Hola es Spotify Clone</p>
-        <h1>Por Ernesto Crespo</h1>
-    </main>
+    <div class="container">
+        <aside>
+            <div class="menu">
+                <a class="active" href="#"><span><img src="img/home.svg" alt="Home-Icon"></span>Inicio</a>
+                <a href="#"><span> <img src="img/search.svg" alt="Search-Icon"> </span>Buscar</a>
+                <a href="#"><span> <img src="img/library.svg" alt="Library-Icon"> </span>Tu biblioteca</a>
+                <a href="#"><span> <img src="img/add.svg" alt="Add-Icon"> </span>Crear Lista</a>
+                <a href="#"><span> <img src="img/heart.svg" alt="Like-Icon"> </span>Canciones que te gustan</a>
+            </div>
+        </aside>
+        <section>
+            <header>
+                <div class="botones-prev-next">
+                    <span class="btn-prev"><img src="img/prev.svg" alt="Prev-Btn"> </span>
+                    <span class="btn-next"><img src="img/next.svg" alt="Next-Btn"> </span>
+                </div>
+                <div class="suscribcion">
+                    <div class="mejora-cuenta">
+                        <button>MEJORA TU CUENTA</button>
+                    </div>
+                    <div class="perfil">
+                        <span class="circulo"><img src="img/user.svg" alt="User-Icon"></span>       
+                        <span class="nombre">User</span>
+                        <span><img src="img/salir.svg" alt=""></span>
+                    </div>
+                </div>
+            </header>
+            <div class="contenedor-degradado">
+                <div class="banner">
+                    <div class="song">
+                        <figure>
+                            <img src="img/person_01.png" alt="Person1-Img">
+                        </figure>
+                    </div>
+                    <div class="song">
+                        <figure>
+                            <img src="img/person_02.png" alt="Person2-Img">
+                        </figure>
+                    </div>
+                    <div class="song">
+                        <figure>
+                            <img src="img/person_03.png" alt="Person3-Img">
+                        </figure>
+                    </div>
+                    <div class="song">
+                        <figure>
+                            <img src="img/person_04.png" alt="Person4-Img">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="content-container">
+                <div class="title">
+                    <h1>¡Buenos días!</h1>
+                </div>
+                <div class="generos">
+                    <div class="cards">
+                        <div class="card-image"><img src="img/person_01.png" alt="Person1-Img"></div>
+                        <div class="card-text">
+                            <h3>Autor Primario</h3>
+                            <img src="img/play.svg" alt="Play-Icon">
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card-image"><img src="img/person_02.png" alt="Person2-Img"></div>
+                        <div class="card-text">
+                            <h3>Autor Primario</h3>
+                            <img src="img/play.svg" alt="Play-Icon">
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card-image"><img src="img/person_03.png" alt="Person3-Img"></div>
+                        <div class="card-text">
+                            <h3>Autor Primario</h3>
+                            <img src="img/play.svg" alt="Play-Icon">
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card-image"><img src="img/person_04.png" alt="Person4-Img"></div>
+                        <div class="card-text">
+                            <h3>Autor Primario</h3>
+                            <img src="img/play.svg" alt="Play-Icon">
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card-image"><img src="img/person_02.png" alt="Person2-Img"></div>
+                        <div class="card-text">
+                            <h3>Autor Primario</h3>
+                            <img src="img/play.svg" alt="Play-Icon">
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card-image"><img src="img/person_04.png" alt="Person4-Img"></div>
+                        <div class="card-text">
+                            <h3>Autor Primario</h3>
+                            <img src="img/play.svg" alt="Play-Icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="title">
+                    <h2>Programas para probar</h2>
+                    <span>Podcast que te van a gustar</span>
+                </div>
+                <div class="podcast">
+                    <div class="card-podcast">
+                        <img src="img/person_01.png" alt="Podcast1-Img">
+                        <h4>Titulo P1</h4>
+                        <p>Podcast primero</p>
+                    </div>
+                    <div class="card-podcast">
+                        <img src="img/person_02.png" alt="Podcast2-Img">
+                        <h4>Titulo P2</h4>
+                        <p>Podcast segundo</p>
+                    </div>
+                    <div class="card-podcast">
+                        <img src="img/person_03.png" alt="Podcast3-Img">
+                        <h4>Titulo P3</h4>
+                        <p>Podcast tercero</p>
+                    </div>
+                    <div class="card-podcast">
+                        <img src="img/person_04.png" alt="Podcast4-Img">
+                        <h4>Titulo P4</h4>
+                        <p>Podcast cuarto</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="controls">
+                <img src="img/prev_footer.svg" alt="Prev-Footer-Icon">
+                <img src="img/play_footer.svg" alt="Play-Footer-Icon">
+                <img src="img/next_footer.svg" alt="Next-Footer-Icon">
+            </div>
+            <div class="progress">
+                <span>0:00</span>
+                <div class="progress-bar"></div>
+                <span>5:00</span>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
